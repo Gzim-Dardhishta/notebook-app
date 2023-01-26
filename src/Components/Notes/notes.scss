@@ -1,0 +1,71 @@
+.notes {
+    display: flex;
+    gap: 3em;
+    margin-top: 1.5em;
+
+    .left{
+        margin-top: 1.5vw;
+    }
+
+
+    .search-input {
+        display: flex;
+        align-items: center;
+
+        input {
+            width: 10em;
+            font-size: 22px;
+            border: none;
+            outline: 1px solid black;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 7px 10px;
+            font-size: 14px;
+            background: none;
+            border: none;
+            background-color: rgb(0, 123, 230);
+            cursor: pointer;
+        }
+    }
+
+    .notes-list {
+
+        .note {
+            margin-bottom: 2.5em;
+
+            button {
+                background: none;
+                border: none;
+                font-size: 1.1em;
+            }
+
+            .fav-button {
+                &:hover {
+                    color: yellowgreen;
+                    cursor: pointer;
+                }
+            }
+
+            .code-button {
+                :hover {
+                    color: #6C3DFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.remove-button {
+    background: none;
+    border: none;
+    font-size: 1.4em;
+    color: red;
+
+    &:hover {
+        cursor: pointer;
+        color: red;
+    }
+}

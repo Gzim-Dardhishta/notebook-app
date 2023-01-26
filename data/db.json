@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "note": "calculateValue: The function calculating the value that you want to cache. It should be pure, should take no arguments, and should return a value of any type. React will call your function during the initial render. On subsequent renders, React will return the same value again if the dependencies have not changed since the last render. Otherwise, it will call calculateValue, return its result, and store it in case it can be reused later",
+      "id": 1
+    },
+    {
+      "note": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab dignissimos consequuntur nostrum rerum? Odit minus corporis quo odio, magnam quos aliquam harum molestias officiis, nisi ad impedit, culpa est.",
+      "id": 2
+    },
+    {
+      "note": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ab dignissimos consequuntur nostrum rerum? Odit minus corporis quo odio, magnam quos aliquam harum molestias officiis, nisi ad impedit, culpa est.",
+      "id": 3
+    }
+  ]
+}
